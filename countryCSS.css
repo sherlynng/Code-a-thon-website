@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css?family=Indie Flower');
+
+body {
+	background-image: url("pastel.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 1500px;
+	background-color: linen;
+}
+h1 {
+	color: purple;
+	font-family: Indie Flower;
+	text-align: center;
+}
+h2 {
+	color: orange;
+	font-family: Comic Sans MS;
+	font-style: oblique;
+	font-weight: bold;
+	font-variant: small-caps;
+}
+p {
+	border: 1px solid red;
+	border-radius: 5px;
+	margin-left: 40px;
+}
+div { /* general for all div */
+	color: blue;
+	background-color: azure;
+	width: 400px;
+	height: 100px;
+	border: 15px solid lightpink;
+	padding: 25px;
+	margin: 25px;
+}
+div.capitals {
+	background: honeydew;
+	color: magenta;
+}
+
+#special {
+	color: hotpink;
+}
+
+#tokyo {
+	color: green;
+}
